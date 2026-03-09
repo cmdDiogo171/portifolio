@@ -1,0 +1,103 @@
+/* VARIÁVEIS — mude a cor aqui e muda em todo o site */
+:root {
+    --cor-primaria: #6c63ff;
+    --cor-fundo: #0f0f0f;
+    --cor-suoerficie: #1a1a1a;
+    --cor-texto: #e0e0e0;
+    --cor-texto-fraco: #888;
+    --fonte: 'Segoe UI', sans-serif;
+}
+
+/* RESET básico — remove margens e paddings padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--fonte);
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--cor-suoerficie);
+    position: sticky;
+    top: 0;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#nav a {
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: var(--cor-primaria);
+}
+
+/* HERO */
+#hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.destaque {
+    color: var(--cor-primaria);
+}
+
+#hero p {
+    color: var(--cor-texto-fraco);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* BOTÃO */
+.btn {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* SEÇÕES GENÉRICAS */
+section {
+    padding: 5rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--cor-primaria);
+}
