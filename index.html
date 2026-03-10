@@ -1,47 +1,180 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diogo Ribeiro | Dev</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
+
 <body>
-    
-<!--NAVEGAÇÂO-->
-<nav id="navbar">
+
+  <nav id="navbar">
     <span class="logo">Diogo.dev</span>
     <ul>
-        <li><a href="sobre">Sobre</a></li>    
-        <li><a href="projetos">Projetos</a></li>    
-        <li><a href="contato">Contato</a></li>    
-    </ul>    
-</nav>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
 
-<!-- HERO (parte de cima da página) -->
-<section id="hero">
-    <h1>Olá, eu sou <span class="destaque">Diogo Ribeiro</span> </h1>
+  <section id="hero">
+    <h1>Olá, eu sou <span class="destaque">Diogo Ribeiro</span></h1>
     <p>Estudante de Técnico em Informática para Internet no IFF — criando coisas pra web.</p>
     <a href="#projetos" class="btn">Ver meus projetos</a>
-</section>
+  </section>
 
-<!-- SOBRE -->
-<section id="projetos">
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou Diogo Ribeiro, estudante de Técnico em Informática para Internet no IFF, de Maricá, RJ — e também formado em Geografia - UERJ, o que me faz pensar em como a tecnologia pode impactar lugares e pessoas reais. 
+        Gosto de criar projetos que resolvem problemas do dia a dia, sem precisar ser grandioso. Já desenvolvi sites para igrejas, profissionais de saúde e sistemas de gestão. 
+        Sou apaixonado por futebol e isso até virou projeto — estou construindo uma ferramenta de análise esportiva. Aprendo melhor construindo, e é isso que você vai encontrar aqui.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+      <div class="skill"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+      <div class="skill"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+      <div class="skill"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+      <div class="skill"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+      <div class="skill"><i class="devicon-github-original" style="color:#fff"></i><span>GitHub</span></div>
+      <div class="skill"><i class="devicon-firebase-plain colored"></i><span>Firebase</span></div>
+      <div class="skill"><span style="font-size:1.4rem">📊</span><span>Excel / VBA</span></div>
+      <div class="skill"><span style="font-size:1.4rem">🇺🇸</span><span>Inglês</span></div>
+    </div>
+  </section>
+
+  <section id="projetos">
     <h2>Projetos</h2>
     <div class="grid-projetos">
-    <!-- os cards de projeto vão entrar aqui depois -->
+
+      <div class="card">
+        <h3>Igreja Mais Maricá ⛪</h3>
+        <p>Site completo de uma igreja em Maricá com horários, localização integrada ao Google Maps, pedido de oração e botões de redes sociais. 100% dinâmico.</p>
+        <div class="tags">
+            <span class="tag tag-html">HTML</span>
+            <span class="tag tag-css">CSS</span>
+            <span class="tag tag-js">JavaScript</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/cmdDiogo171/igreja-mais" target="_blank">GitHub</a>
+          <a href="https://igreja-mais.netlify.app/" target="_blank">Ver site →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Planos Nutricionista 🥗</h3>
+        <p>Site de planos de nutrição com tabela de preços, seção "quem eu sou", formulário de contato direto para o e-mail da nutricionista e botões de redes sociais.</p>
+        <div class="tags">
+            <span class="tag tag-html">HTML</span>
+            <span class="tag tag-css">CSS</span>
+            <span class="tag tag-js">JavaScript</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/cmdDiogo171/planos-nutricionista" target="_blank">GitHub</a>
+          <a href="https://planos-nutricionista.netlify.app/" target="_blank">Ver site →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Controle de Pacientes 📋</h3>
+        <p>Sistema completo para nutricionistas com cadastro de pacientes, controle de pagamentos, calendário de consultas, registro de medidas corporais e gráficos de evolução do cliente.</p>
+        <div class="tags">
+            <span class="tag tag-html">HTML</span>
+            <span class="tag tag-css">CSS</span>
+            <span class="tag tag-js">JavaScript</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/cmdDiogo171/controle-paciente" target="_blank">GitHub</a>
+          <a href="https://controle-paciente.netlify.app/" target="_blank">Ver site →</a>
+        </div>
+      </div>
+
     </div>
-</section>
+  </section>
 
-<!-- CONTATO -->
-<section id="contato">
+  <section id="contato">
     <h2>Contato</h2>
-    <p> Me manda um e-mail: <a
-href="mailto:diogo.ribeiro_@live.com">diogo.ribeiro_@live.com</a></p>
-</section>
+    <p>Quer conversar ou ver mais do meu trabalho?</p>
+    <div class="contato-links">
+      <a href="mailto:diogo.ribeiro_@live.com">
+        <i class="devicon-google-plain colored"></i> Email
+      </a>
+      <a href="https://github.com/cmdDiogo171" target="_blank">
+        <i class="devicon-github-original" style="color:#fff"></i> GitHub
+      </a>
+      <a href="https://wa.me/5521993863971" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg" 
+             style="width:20px; filter: invert(1);"> WhatsApp
+      </a>
+    </div>
+  </section>
 
-<script src="script.js"></script>
+  <canvas id="pcb-bg"></canvas>
+
+  <script>
+    const canvas = document.getElementById('pcb-bg');
+    const ctx = canvas.getContext('2d');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+
+    const linhas = [];
+    const QTD = 40;
+
+    for (let i = 0; i < QTD; i++) {
+      linhas.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        dx: (Math.random() < 0.5 ? 1 : -1) * (1 + Math.random()),
+        dy: 0,
+        len: 0,
+        maxLen: 60 + Math.random() * 100,
+        alpha: Math.random()
+      });
+    }
+
+    function draw() {
+      ctx.fillStyle = 'rgba(10, 10, 10, 0.15)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      linhas.forEach(l => {
+        ctx.strokeStyle = `rgba(0, 170, 255, ${l.alpha})`;
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(l.x, l.y);
+        l.x += l.dx;
+        l.y += l.dy;
+        l.len++;
+        ctx.lineTo(l.x, l.y);
+        ctx.stroke();
+
+        if (l.len > l.maxLen || l.x < 0 || l.x > canvas.width || l.y < 0 || l.y > canvas.height) {
+          l.x = Math.random() * canvas.width;
+          l.y = Math.random() * canvas.height;
+          l.dx = (Math.random() < 0.5 ? 1 : -1) * (1 + Math.random());
+          l.dy = 0;
+          l.len = 0;
+          l.maxLen = 60 + Math.random() * 100;
+        }
+
+        if (Math.random() < 0.02) { l.dy = l.dx; l.dx = 0; }
+        if (Math.random() < 0.02) { l.dx = l.dy; l.dy = 0; }
+      });
+
+      requestAnimationFrame(draw);
+    }
+
+    draw();
+  </script>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
-
-
-
