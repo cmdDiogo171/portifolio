@@ -22,6 +22,7 @@ body {
     color: var(--cor-texto);
     font-family: var(--fonte);
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 #pcb-bg {
@@ -40,8 +41,10 @@ body {
     align-items: center;
     padding: 1rem 2rem;
     background-color: var(--cor-superficie);
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 #navbar ul {
@@ -67,6 +70,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 2rem;
+    padding-top: 80px;
 }
 
 #hero h1 {
@@ -149,7 +153,7 @@ section h2 {
     gap: 0.5rem;
 }
 
-.tag { 
+.tag {
     padding: 0.2rem 0.7rem;
     border-radius: 999px;
     font-size: 0.8rem;
@@ -161,7 +165,6 @@ section h2 {
 .tag-js       { color: #f7df1e; border: 1px solid #f7df1e; }
 .tag-firebase { color: #ffca28; border: 1px solid #ffca28; }
 .tag-git      { color: #f05032; border: 1px solid #f05032; }
-
 
 .card-links {
     display: flex;
@@ -245,4 +248,52 @@ section h2 {
 
 .contato-links a:hover {
     border-color: var(--cor-primaria);
+}
+
+/* ANIMAÇÕES DE ENTRADA */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visivel {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===== RESPONSIVO MOBILE ===== */
+@media (max-width: 768px) {
+
+  #navbar {
+    padding: 0.8rem 1rem;
+  }
+
+  #navbar ul {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  .grid-projetos {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-links {
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .skills-grid {
+    gap: 0.7rem;
+  }
 }
