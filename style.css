@@ -17,6 +17,18 @@ html {
     box-sizing: border-box;
 }
 
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: var(--cor-primaria); /* ou #6c63ff */
+  z-index: 9999;
+  transition: width 0.1s ease;
+}
+
+
 body {
     background-color: transparent;
     color: var(--cor-texto);
@@ -261,6 +273,75 @@ section h2 {
     opacity: 1;
     transform: translateY(0);
 }
+
+.timeline {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border-left: 2px solid var(--cor-primaria);
+    padding-left: 1.5rem;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: var(--cor-primaria);
+    border-radius: 50%;
+    position: absolute;
+    left: -1.95rem;
+    top: 0.4rem;
+}
+
+.timeline-ano {
+    color: var(--cor-primaria);
+    font-weight: bold;
+    font-size: 0.9rem;
+    min-width: 40px;
+}
+
+.timeline-conteudo h4 {
+    color: var(--cor-texto);
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.timeline-conteudo p {
+    color: var(--cor-texto-fraco);
+    font-size: 0.85rem;
+}
+
+.card::after {
+    content: 'Ver projeto →';
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    color: var(--cor-primaria);
+    font-size: 0.85rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.card {
+    position: relative; /* ← adiciona isso no .card que já existe */
+}
+
+.card:hover::after {
+    opacity: 1;
+}
+
+.card:hover {
+    background: linear-gradient(135deg, #1a1a1a, #1f1a2e);
+}
+
 
 /* ===== RESPONSIVO MOBILE ===== */
 @media (max-width: 768px) {
