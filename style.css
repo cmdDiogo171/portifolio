@@ -177,6 +177,10 @@ section h2 {
 .tag-js       { color: #f7df1e; border: 1px solid #f7df1e; }
 .tag-firebase { color: #ffca28; border: 1px solid #ffca28; }
 .tag-git      { color: #f05032; border: 1px solid #f05032; }
+.tag-php      { color: #777bb4; border: 1px solid #777bb4; }
+.tag-bootstrap { color: #7952b3; border: 1px solid #7952b3; }
+.tag-mysql    { color: #00758f; border: 1px solid #00758f; }
+.tag-json     { color: #f0db4f; border: 1px solid #f0db4f; }
 
 .card-links {
     display: flex;
