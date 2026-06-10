@@ -6,7 +6,7 @@ Este projeto foi desenvolvido para apresentar minha trajetória, habilidades, pr
 
 ## 🌐 Acesse Online
 
-👉 https://SEU-USUARIO.github.io/portifolio/
+👉 https://github.com/cmdDiogo171/portifolio
 
 ## ✨ Funcionalidades
 
