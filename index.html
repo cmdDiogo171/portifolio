@@ -3,27 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diogo Ribeiro - Dev</title>
+  <title>Diogo Ribeiro | Desenvolvedor Web</title>
 
-<!-- SEO básico -->
-<meta name="description" content="Portfólio de Diogo Ribeiro — desenvolvedor web de Maricá, RJ. Projetos em HTML, CSS, JavaScript e Firebase.">
-<meta name="author" content="Diogo Ribeiro">
+  <meta name="description" content="Portfólio de Diogo Ribeiro, desenvolvedor web de Maricá, RJ. Projetos em HTML, CSS, JavaScript, PHP, MySQL, Bootstrap e Firebase.">
+  <meta name="author" content="Diogo Ribeiro">
 
-<!-- Open Graph (WhatsApp, LinkedIn, Facebook) -->
-<meta property="og:title" content="Diogo Ribeiro | Dev">
-<meta property="og:description" content="Desenvolvedor web de Maricá, RJ. Veja meus projetos em HTML, CSS, JavaScript e Firebase.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://portifoliodiogo.netlify.app/">
-<meta property="og:image" content="https://portifoliodiogo.netlify.app/favicon/apple-touch-icon.png">
+  <meta property="og:title" content="Diogo Ribeiro | Desenvolvedor Web">
+  <meta property="og:description" content="Portfólio com projetos web, sistemas e aplicações desenvolvidas com foco em solução real, organização e usabilidade.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://portifoliodiogo.netlify.app/">
+  <meta property="og:image" content="https://portifoliodiogo.netlify.app/favicon/apple-touch-icon.png">
 
-<!-- Twitter/X -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Diogo Ribeiro | Dev">
-<meta name="twitter:description" content="Desenvolvedor web de Maricá, RJ.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Diogo Ribeiro | Desenvolvedor Web">
+  <meta name="twitter:description" content="Portfólio com projetos web, sistemas e aplicações desenvolvidas com foco em solução real, organização e usabilidade.">
 
-
-  
-  <!-- FAVICON — adiciona aqui -->
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -32,204 +26,256 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
-
 <body>
   <div id="progress-bar"></div>
-
+  <canvas id="pcb-bg"></canvas>
 
   <nav id="navbar">
     <span class="logo">Diogo.dev</span>
     <ul>
       <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
       <li><a href="#projetos">Projetos</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
   </nav>
 
-  <section id="hero">
-    <h1>Olá, eu sou <span class="destaque">Diogo Ribeiro</span></h1>
-    <p>Estudante de Técnico em Informática para Internet no IFF — criando coisas pra web.</p>
-    <a href="#projetos" class="btn">Ver meus projetos</a>
-  </section>
-
-  <section id="sobre" class="reveal">
-    <h2>Sobre mim</h2>
-    <p>Sou Diogo Ribeiro, estudante de Técnico em Informática para Internet no IFF, de Maricá, RJ — e também formado em Geografia - UERJ, o que me faz pensar em como a tecnologia pode impactar lugares e pessoas reais. 
-        Gosto de criar projetos que resolvem problemas do dia a dia, sem precisar ser grandioso. Já desenvolvi sites para igrejas, profissionais de saúde e sistemas de gestão. 
-        Sou apaixonado por futebol e isso até virou projeto — estou construindo uma ferramenta de análise esportiva. Aprendo melhor construindo, e é isso que você vai encontrar aqui.</p>
-
-  <div class="timeline">
-    <div class="timeline-item">
-      <span class="timeline-ano">2025</span>
-      <div class="timeline-conteudo">
-        <h4>Técnico em Informática para Internet</h4>
-        <p>Instituto Federal Fluminense — IFF</p>
+  <main>
+    <section id="hero">
+      <p class="hero-kicker">Diogo Ribeiro • Desenvolvedor Web</p>
+      <h1>Desenvolvo sites e sistemas com foco em solução real, organização e usabilidade.</h1>
+      <p class="hero-text">
+        Estudante de Técnico em Informática para Internet no IFF, com projetos em HTML, CSS, JavaScript, PHP, MySQL, Bootstrap e Firebase.
+        Gosto de construir aplicações diretas, funcionais e bem resolvidas.
+      </p>
+      <div class="hero-actions">
+        <a href="#projetos" class="btn">Ver projetos</a>
+        <a href="#contato" class="btn btn-outline">Contato</a>
       </div>
-    </div>
-    <div class="timeline-item">
-      <span class="timeline-ano">2025</span>
-      <div class="timeline-conteudo">
-        <h4>Primeiro freela</h4>
-        <p>Site completo para a Igreja Mais Maricá</p>
+    </section>
+
+    <section id="sobre" class="reveal">
+      <h2>Sobre mim</h2>
+      <p>
+        Sou Diogo Ribeiro, de Maricá, RJ, estudante de Técnico em Informática para Internet no IFF e formado em Geografia pela UERJ.
+        Tenho interesse em tecnologia aplicada a problemas reais, principalmente em projetos web com foco em organização, informação e experiência do usuário.
+      </p>
+      <p>
+        Já desenvolvi sites institucionais, sistemas internos e projetos autorais.
+        Trabalhei em meus sites com HTML, CSS, JavaScript, PHP, MySQL, Bootstrap e Firebase, sempre buscando entregar algo funcional, limpo e fácil de usar.
+      </p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-ano">2025</span>
+          <div class="timeline-conteudo">
+            <h4>Técnico em Informática para Internet</h4>
+            <p>Instituto Federal Fluminense — IFF</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-ano">2025</span>
+          <div class="timeline-conteudo">
+            <h4>Primeiro freela</h4>
+            <p>Desenvolvimento do site da Igreja Mais Maricá</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-ano">2026</span>
+          <div class="timeline-conteudo">
+            <h4>Projetos próprios e sistemas web</h4>
+            <p>Expansão do portfólio com aplicações práticas e projetos autorais</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="timeline-item">
-      <span class="timeline-ano">2026</span>
-      <div class="timeline-conteudo">
-        <h4>Portfólio online</h4>
-        <p>Projetos publicados e disponível para freelas</p>
+    </section>
+
+    <section id="habilidades" class="reveal">
+      <h2>Habilidades</h2>
+
+      <div class="skills-group">
+        <h3>Front-end</h3>
+        <div class="skills-grid">
+          <div class="skill"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+          <div class="skill"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+          <div class="skill"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+          <div class="skill"><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></div>
+        </div>
       </div>
-    </div>
-  </div>
 
-
-
-  </section>
-
-  <section id="habilidades" class="reveal">
-    <h2>Habilidades</h2>
-    <div class="skills-grid">
-      <div class="skill"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
-      <div class="skill"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
-      <div class="skill"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
-      <div class="skill"><i class="devicon-git-plain colored"></i><span>Git</span></div>
-      <div class="skill"><i class="devicon-github-original" style="color:#fff"></i><span>GitHub</span></div>
-      <div class="skill"><i class="devicon-firebase-plain colored"></i><span>Firebase</span></div>
-      <div class="skill"><span style="font-size:1.4rem">📊</span><span>Excel / VBA</span></div>
-      <div class="skill"><span style="font-size:1.4rem">🇺🇸</span><span>Inglês</span></div>
-    </div>
-  </section>
-
-  <section id="projetos" class="reveal">
-  <h2>Projetos</h2>
-  <div class="grid-projetos">
-
-    <div class="card">
-      <h3>Mapa Vivo 🗺️</h3>
-      <p>Aplicação web interativa com mapa do Brasil, visualização de dados por estado e um jogo temático baseado nessas informações.</p>
-      <div class="tags">
-        <span class="tag tag-html">HTML</span>
-        <span class="tag tag-css">CSS</span>
-        <span class="tag tag-js">JavaScript</span>
-        <span class="tag tag-json">JSON</span>
+      <div class="skills-group">
+        <h3>Back-end e dados</h3>
+        <div class="skills-grid">
+          <div class="skill"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+          <div class="skill"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+          <div class="skill"><i class="devicon-firebase-plain colored"></i><span>Firebase</span></div>
+          <div class="skill"><span class="skill-icon">{ }</span><span>JSON</span></div>
+        </div>
       </div>
-      <div class="card-links">
-        <a href="https://github.com/cmdDiogo171/MapaVivo" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://mappavivo.netlify.app/" target="_blank" rel="noopener noreferrer">Ver site →</a>
-      </div>
-    </div>
 
-    <div class="card">
-      <h3>Farol Kids ✨</h3>
-      <p>Sistema web para professoras de uma igreja, com área para planos de aula, download de materiais, registro de frequência e mural de aniversários.</p>
-      <div class="tags">
-        <span class="tag tag-php">PHP</span>
-        <span class="tag tag-html">HTML</span>
-        <span class="tag tag-css">CSS</span>
-        <span class="tag tag-bootstrap">Bootstrap</span>
-        <span class="tag tag-mysql">MySQL</span>
+      <div class="skills-group">
+        <h3>Ferramentas</h3>
+        <div class="skills-grid">
+          <div class="skill"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+          <div class="skill"><i class="devicon-github-original" style="color:#fff"></i><span>GitHub</span></div>
+          <div class="skill"><span class="skill-icon">X</span><span>XAMPP</span></div>
+          <div class="skill"><span class="skill-icon">N</span><span>Netlify</span></div>
+        </div>
       </div>
-      <div class="card-links">
-        <a href="https://farol-kids.freedev.app/public/index.php" target="_blank" rel="noopener noreferrer">Ver sistema →</a>
-      </div>
-    </div>
+    </section>
 
-    <div class="card">
-      <h3>Controle de Pacientes 📋</h3>
-      <p>Sistema para nutricionistas com cadastro de pacientes, controle de pagamentos, calendário de consultas, registro de medidas corporais e gráficos de evolução.</p>
-      <div class="tags">
-        <span class="tag tag-html">HTML</span>
-        <span class="tag tag-css">CSS</span>
-        <span class="tag tag-js">JavaScript</span>
-      </div>
-      <div class="card-links">
-        <a href="https://github.com/cmdDiogo171/controle-paciente" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://controle-paciente.netlify.app/" target="_blank" rel="noopener noreferrer">Ver site →</a>
-      </div>
-    </div>
+    <section id="projetos" class="reveal">
+      <h2>Projetos</h2>
+      <div class="grid-projetos">
+        <article class="card">
+          <h3>Mapa Vivo</h3>
+          <p>Aplicação web interativa com mapa do Brasil, exibição de dados por estado e um jogo temático baseado nessas informações.</p>
+          <div class="tags">
+            <span class="tag tag-html">HTML</span>
+            <span class="tag tag-css">CSS</span>
+            <span class="tag tag-js">JavaScript</span>
+            <span class="tag tag-json">JSON</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/cmdDiogo171/MapaVivo" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://mappavivo.netlify.app/" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+          </div>
+        </article>
 
-    <div class="card">
-      <h3>Igreja Mais Maricá ⛪</h3>
-      <p>Site institucional com horários, localização integrada ao Google Maps, pedido de oração e acesso às redes sociais.</p>
-      <div class="tags">
-        <span class="tag tag-html">HTML</span>
-        <span class="tag tag-css">CSS</span>
-        <span class="tag tag-js">JavaScript</span>
-      </div>
-      <div class="card-links">
-        <a href="https://github.com/cmdDiogo171/igreja-mais" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://igreja-mais.netlify.app/" target="_blank" rel="noopener noreferrer">Ver site →</a>
-      </div>
-    </div>
+        <article class="card">
+          <h3>Farol Kids</h3>
+          <p>Sistema web para professoras de uma igreja, com planos de aula, download de materiais, registro de frequência e mural de aniversários.</p>
+          <div class="tags">
+            <span class="tag tag-php">PHP</span>
+            <span class="tag tag-html">HTML</span>
+            <span class="tag tag-css">CSS</span>
+            <span class="tag tag-bootstrap">Bootstrap</span>
+            <span class="tag tag-mysql">MySQL</span>
+          </div>
+          <div class="card-links">
+            <a href="https://farol-kids.freedev.app/public/index.php" target="_blank" rel="noopener noreferrer">Ver sistema</a>
+          </div>
+        </article>
 
-    <div class="card">
-      <h3>Planos Nutricionista 🥗</h3>
-      <p>Site para apresentação de planos de nutrição, com tabela de preços, seção institucional, formulário de contato e redes sociais.</p>
-      <div class="tags">
-        <span class="tag tag-html">HTML</span>
-        <span class="tag tag-css">CSS</span>
-        <span class="tag tag-js">JavaScript</span>
+        <article class="card">
+          <h3>Controle de Pacientes</h3>
+          <p>Sistema para nutricionistas com cadastro de pacientes, pagamentos, consultas, medidas corporais e acompanhamento de evolução.</p>
+          <div class="tags">
+            <span class="tag tag-html">HTML</span>
+            <span class="tag tag-css">CSS</span>
+            <span class="tag tag-js">JavaScript</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/cmdDiogo171/controle-paciente" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://controle-paciente.netlify.app/" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Igreja Mais Maricá</h3>
+          <p>Site institucional com horários, localização integrada ao Google Maps, pedido de oração e acesso às redes sociais.</p>
+          <div class="tags">
+            <span class="tag tag-html">HTML</span>
+            <span class="tag tag-css">CSS</span>
+            <span class="tag tag-js">JavaScript</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/cmdDiogo171/igreja-mais" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://igreja-mais.netlify.app/" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Planos Nutricionista</h3>
+          <p>Site para apresentação de serviços de nutrição, com tabela de preços, informações profissionais, contato e redes sociais.</p>
+          <div class="tags">
+            <span class="tag tag-html">HTML</span>
+            <span class="tag tag-css">CSS</span>
+            <span class="tag tag-js">JavaScript</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/cmdDiogo171/planos-nutricionista" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://planos-nutricionista.netlify.app/" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+          </div>
+        </article>
       </div>
-      <div class="card-links">
-        <a href="https://github.com/cmdDiogo171/planos-nutricionista" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://planos-nutricionista.netlify.app/" target="_blank" rel="noopener noreferrer">Ver site →</a>
+    </section>
+
+    <section id="contato" class="reveal">
+      <h2>Contato</h2>
+      <p>Disponível para freelas, projetos web e oportunidades de estágio.</p>
+      <div class="contato-links">
+        <a href="mailto:diogo.ribeiro_@live.com">
+          <i class="devicon-google-plain colored"></i>
+          <span>Email</span>
+        </a>
+
+        <a href="https://github.com/cmdDiogo171" target="_blank" rel="noopener noreferrer">
+          <i class="devicon-github-original" style="color:#fff"></i>
+          <span>GitHub</span>
+        </a>
+
+        <a href="https://wa.me/5521993863971" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg" alt="WhatsApp" style="width:20px; filter: invert(1);">
+          <span>WhatsApp</span>
+        </a>
       </div>
-    </div>
-
-  </div>
-</section>
-
-  <section id="contato" class="reveal">
-    <h2>Contato</h2>
-    <p>Quer conversar ou ver mais do meu trabalho?</p>
-    <div class="contato-links">
-      <a href="mailto:diogo.ribeiro_@live.com">
-        <i class="devicon-google-plain colored"></i> Email
-      </a>
-      <a href="https://github.com/cmdDiogo171" target="_blank">
-        <i class="devicon-github-original" style="color:#fff"></i> GitHub
-      </a>
-      <a href="https://wa.me/5521993863971" target="_blank">
-        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg" 
-             style="width:20px; filter: invert(1);"> WhatsApp
-      </a>
-    </div>
-  </section>
-
-  <canvas id="pcb-bg"></canvas>
+    </section>
+  </main>
 
   <script>
+    const elementos = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visivel');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    elementos.forEach(el => observer.observe(el));
+
+    window.addEventListener('scroll', () => {
+      const scrollTop = document.documentElement.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const progress = (scrollTop / scrollHeight) * 100;
+      document.getElementById('progress-bar').style.width = progress + '%';
+    });
+
     const canvas = document.getElementById('pcb-bg');
     const ctx = canvas.getContext('2d');
 
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    window.addEventListener('resize', () => {
+    function resizeCanvas() {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-    });
+    }
+
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
 
     const linhas = [];
-    const QTD = 40;
+    const QTD = 28;
 
     for (let i = 0; i < QTD; i++) {
       linhas.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        dx: (Math.random() < 0.5 ? 1 : -1) * (1 + Math.random()),
+        dx: (Math.random() < 0.5 ? 1 : -1) * (0.6 + Math.random()),
         dy: 0,
         len: 0,
-        maxLen: 60 + Math.random() * 100,
-        alpha: Math.random()
+        maxLen: 40 + Math.random() * 70,
+        alpha: 0.12 + Math.random() * 0.25
       });
     }
 
     function draw() {
-      ctx.fillStyle = 'rgba(10, 10, 10, 0.15)';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       linhas.forEach(l => {
-        ctx.strokeStyle = `rgba(0, 170, 255, ${l.alpha})`;
+        ctx.strokeStyle = `rgba(77, 163, 255, ${l.alpha})`;
         ctx.lineWidth = 1;
         ctx.beginPath();
         ctx.moveTo(l.x, l.y);
@@ -242,14 +288,21 @@
         if (l.len > l.maxLen || l.x < 0 || l.x > canvas.width || l.y < 0 || l.y > canvas.height) {
           l.x = Math.random() * canvas.width;
           l.y = Math.random() * canvas.height;
-          l.dx = (Math.random() < 0.5 ? 1 : -1) * (1 + Math.random());
+          l.dx = (Math.random() < 0.5 ? 1 : -1) * (0.6 + Math.random());
           l.dy = 0;
           l.len = 0;
-          l.maxLen = 60 + Math.random() * 100;
+          l.maxLen = 40 + Math.random() * 70;
         }
 
-        if (Math.random() < 0.02) { l.dy = l.dx; l.dx = 0; }
-        if (Math.random() < 0.02) { l.dx = l.dy; l.dy = 0; }
+        if (Math.random() < 0.015) {
+          l.dy = l.dx;
+          l.dx = 0;
+        }
+
+        if (Math.random() < 0.015) {
+          l.dx = l.dy;
+          l.dy = 0;
+        }
       });
 
       requestAnimationFrame(draw);
@@ -257,8 +310,5 @@
 
     draw();
   </script>
-
-  <script src="script.js"></script>
-
 </body>
 </html>
