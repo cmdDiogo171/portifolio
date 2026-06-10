@@ -6,7 +6,7 @@ Este projeto foi desenvolvido para apresentar minha trajetória, habilidades, pr
 
 ## 🌐 Acesse Online
 
-👉 https://github.com/cmdDiogo171/portifolio
+👉 https://portifoliodiogo.netlify.app
 
 ## ✨ Funcionalidades
 
